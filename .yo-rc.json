@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "by.tractorsheart"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "MonoHeart",
+    "packageName": "by.tractorsheart",
+    "packageFolder": "by/tractorsheart",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZWZjMjBlMjUyMWQwNzIzMDczM2JiODg3YTQxNGYzYmY4YjRmMjczMDg4YjVmYzY4NmVkYTFhNWE0ZTNmYjRkM2ZiODJhOGQwZmJmMzlhY2JlMjgxYTg2NTA0ZDliNDA5YmJkZDg5NDFhZDI2Y2EzOTRjMzZjYjEyMjJlMWQ2N2I=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
