@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity MarkT.
+    -->
+    <changeSet id="20191206082443-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="markt_id"
+                                 baseTableName="markt_typet"
+                                 constraintName="fk_markt_typet_markt_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="markt"/>
+
+        <addForeignKeyConstraint baseColumnNames="typet_id"
+                                 baseTableName="markt_typet"
+                                 constraintName="fk_markt_typet_typet_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="typet"/>
+        
+    </changeSet>
+</databaseChangeLog>

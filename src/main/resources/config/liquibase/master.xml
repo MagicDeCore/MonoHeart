@@ -14,6 +14,19 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205112256_added_entity_DetailT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205112510_added_entity_NodeT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113041_added_entity_ModuleT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113541_added_entity_PartT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113938_added_entity_ModelT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191206082257_added_entity_TypeT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191206082443_added_entity_MarkT.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20191205112510_added_entity_constraints_NodeT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113041_added_entity_constraints_ModuleT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113541_added_entity_constraints_PartT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191205113938_added_entity_constraints_ModelT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191206082257_added_entity_constraints_TypeT.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191206082443_added_entity_constraints_MarkT.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "typeT",
+            "otherEntityName": "typeT",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "name",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "markT"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191206082443",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "markt",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

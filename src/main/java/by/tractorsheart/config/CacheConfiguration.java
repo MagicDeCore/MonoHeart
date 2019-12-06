@@ -45,6 +45,25 @@ public class CacheConfiguration {
             createCache(cm, by.tractorsheart.domain.User.class.getName());
             createCache(cm, by.tractorsheart.domain.Authority.class.getName());
             createCache(cm, by.tractorsheart.domain.User.class.getName() + ".authorities");
+            createCache(cm, by.tractorsheart.domain.DetailT.class.getName());
+            createCache(cm, by.tractorsheart.domain.NodeT.class.getName());
+            createCache(cm, by.tractorsheart.domain.NodeT.class.getName() + ".detailTS");
+            createCache(cm, by.tractorsheart.domain.DetailT.class.getName() + ".nodeTS");
+            createCache(cm, by.tractorsheart.domain.ModuleT.class.getName());
+            createCache(cm, by.tractorsheart.domain.ModuleT.class.getName() + ".nodeTS");
+            createCache(cm, by.tractorsheart.domain.NodeT.class.getName() + ".moduleTS");
+            createCache(cm, by.tractorsheart.domain.PartT.class.getName());
+            createCache(cm, by.tractorsheart.domain.PartT.class.getName() + ".moduleTS");
+            createCache(cm, by.tractorsheart.domain.ModuleT.class.getName() + ".partTS");
+            createCache(cm, by.tractorsheart.domain.ModelT.class.getName());
+            createCache(cm, by.tractorsheart.domain.ModelT.class.getName() + ".partTS");
+            createCache(cm, by.tractorsheart.domain.PartT.class.getName() + ".modelTS");
+            createCache(cm, by.tractorsheart.domain.TypeT.class.getName());
+            createCache(cm, by.tractorsheart.domain.TypeT.class.getName() + ".modelTS");
+            createCache(cm, by.tractorsheart.domain.MarkT.class.getName());
+            createCache(cm, by.tractorsheart.domain.MarkT.class.getName() + ".typeTS");
+            createCache(cm, by.tractorsheart.domain.TypeT.class.getName() + ".markTS");
+            createCache(cm, by.tractorsheart.domain.ModelT.class.getName() + ".typeTS");
             // jhipster-needle-ehcache-add-entry
         };
     }

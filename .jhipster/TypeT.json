@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "modelT",
+            "otherEntityName": "modelT",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "name",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "typeT"
+        },
+        {
+            "relationshipName": "markT",
+            "otherEntityName": "markT",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "typeT"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191206082257",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "typet",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}
