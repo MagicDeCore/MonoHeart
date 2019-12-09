@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity ModelT.
+    -->
+    <changeSet id="20191205113938-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="modelt_id"
+                                 baseTableName="modelt_partt"
+                                 constraintName="fk_modelt_partt_modelt_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="modelt"/>
+
+        <addForeignKeyConstraint baseColumnNames="partt_id"
+                                 baseTableName="modelt_partt"
+                                 constraintName="fk_modelt_partt_partt_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="partt"/>
+        
+    </changeSet>
+</databaseChangeLog>
